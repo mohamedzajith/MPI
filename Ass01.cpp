@@ -39,3 +39,4 @@ int main(int argc,char **argv)
 
     MPI_Finalize();
 }
+//MPI_Reduce(&total,&gtotal,1,MPI_INT,MPI_SUM,root,MPI_COMM_WORLD)
